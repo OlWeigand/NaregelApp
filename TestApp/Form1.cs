@@ -29,7 +29,7 @@
 		// TODO: 
 		//private BACnet bacnet = new BACnet();
 
-		// Get the local IP Address to connect to BACnet from
+		// Get the local IP Address
 		private static IPAddress localip = LocalIPAddress();
 
 		private BACnet bacnet = new BACnet((localip).ToString(), 47808);
