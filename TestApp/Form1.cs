@@ -114,6 +114,7 @@
             ResultLabel.Text = "Resultaat: " + (result ? "Success, " + propertyValue.ToString() : "Failure");
         }
 
+		// Tests 'Get Device' functionality with the selected device #
 		private void GetDevicebt_Click(object sender, EventArgs e)
 		{
 			bacnetDevice = bacnet.GetDevice(Convert.ToInt32(nmGetDevice.Value));
